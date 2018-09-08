@@ -1,10 +1,13 @@
 {
-  "name": "electron-quick-start",
+  "name": "count-down",
   "version": "1.0.0",
   "description": "A minimal Electron application",
   "main": "main.js",
+  "productName": "Jason的计时器",
   "scripts": {
-    "start": "electron ."
+    "start": "electron .",
+    "pack": "electron-builder --dir",
+    "dist": "electron-builder"
   },
   "repository": "https://github.com/electron/electron-quick-start",
   "keywords": [
@@ -18,5 +21,8 @@
   "license": "CC0-1.0",
   "devDependencies": {
     "electron": "^2.0.0"
+  },
+  "dependencies": {
+
   }
 }
